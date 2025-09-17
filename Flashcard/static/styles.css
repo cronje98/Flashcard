@@ -1,0 +1,57 @@
+        body {
+            /*background-color: #f2f2f2;*/
+            background-color: rgba(146, 44, 44, 0.481);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .flashcard {
+            background-color: antiquewhite;
+            border: 2px solid rgba(146, 44, 44, 0.11);
+
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 4px 4px 20px black;
+            width: 400px;
+            text-align: center;
+        }
+
+        .question {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            width: 90%;
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            background-color: white;
+            border: 1px solid white;
+
+            border-radius: 6px;
+          
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: rgba(64, 18, 18, 0.5);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: brown;
+        }
+
+        .feedback {
+            margin-top: 15px;
+            font-weight: bold;
+            color: brown;
+        }

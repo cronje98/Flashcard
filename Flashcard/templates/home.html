@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flashcard Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <div class="flashcard">
+        <div class="question">
+            {{ question }}
+        </div>
+
+        <form method="POST">
+            <input type="text" name="answer" placeholder="Type your answer" autofocus required>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+
+        {% if response %}
+            <div class="feedback">{{ response }}</div>
+        {% endif %}
+    </div>
+
+</body>
+</html>
