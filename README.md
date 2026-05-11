@@ -1,9 +1,6 @@
 # Flashcard
 Flashcard application python heavy with HTML and CSS for design
 
-## Next Updates
-- Case-insensitive answer checking
-- Score tracking using Flask sessions
 
 ## Features
 - One-question-at-a-time 
@@ -16,7 +13,12 @@ Flashcard application python heavy with HTML and CSS for design
 - **Flask** (lightweight web framework)
 - **HTML & CSS** for basic layout
 - **Flask session** to track user progress and score
-- <img width="1875" height="998" alt="Screenshot 2025-09-17 202839" src="https://github.com/user-attachments/assets/8b434264-e00f-492e-b1ae-170bbdb2b5fc" />
+
+## Next Add-Ons
+- Case-insensitive answer checking
+- Score tracking using Flask sessions
+
+<img width="1875" height="953" alt="Screenshot 2025-09-17 202839" src="https://github.com/user-attachments/assets/5cdf5c38-8e54-4b67-922e-54abc5231be8" />
 
 
   
