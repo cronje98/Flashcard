@@ -15,8 +15,7 @@ Flashcard application python heavy with HTML and CSS for design
 - **Flask session** to track user progress and score
 
 ## Next Add-Ons
-- Case-insensitive answer checking
-- Score tracking using Flask sessions
+-Read provided file with set of questions and answers
 
 <img width="1875" height="953" alt="Screenshot 2025-09-17 202839" src="https://github.com/user-attachments/assets/5cdf5c38-8e54-4b67-922e-54abc5231be8" />
 
